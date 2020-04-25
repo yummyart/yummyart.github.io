@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>美味生活</title>
-    <link>http://blog.yummy.live/</link>
-    <description>Recent content on 美味生活</description>
+    <title>Posts on 美味生活</title>
+    <link>http://blog.yummy.live/post/</link>
+    <description>Recent content in Posts on 美味生活</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 24 Apr 2020 04:42:19 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 01:57:38 +0800</lastBuildDate>
     
-	<atom:link href="http://blog.yummy.live/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.yummy.live/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -75,15 +75,6 @@ yummy觉得作为一位美食制作人，或者一位厨师来说，食物的气
 譬如，要做一道炸肥肝酱。需要它能吃上脆脆的口感，又要保持肥肝酱原本软滑的口感。
 我们可以通过把肥肝酱，切片，裹上面粉，蛋液，粘上面包糠去炸，通过面包糠来添加上脆的口感。
 一道美食能让制作者发挥的空间最大的就是口感。也是最考功力的一个学问。 </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://blog.yummy.live/about/</link>
-      <pubDate>Fri, 24 Apr 2020 04:42:19 +0800</pubDate>
-      
-      <guid>http://blog.yummy.live/about/</guid>
-      <description>  人生最快乐的事情莫过于吃和玩 如果我们的想法相同，不妨与我联系 QQ：3560780 </description>
     </item>
     
   </channel>

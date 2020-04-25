@@ -3,17 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://yummy.live/about/</loc>
+    <loc>http://blog.yummy.live/post/</loc>
+    <lastmod>2020-04-25T01:57:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/tags/</loc>
+    <lastmod>2020-04-25T01:57:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/summary/</loc>
+    <lastmod>2020-04-25T01:57:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/tags/%E5%90%83/</loc>
+    <lastmod>2020-04-25T01:57:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/about/</loc>
     <lastmod>2020-04-24T04:42:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://yummy.live/</loc>
+    <loc>http://blog.yummy.live/</loc>
     <lastmod>2020-04-24T04:42:19+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yummy.live/tags/</loc>
   </url>
   
 </urlset>
