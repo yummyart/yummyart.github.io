@@ -19,10 +19,15 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" type="text/css" href="http://blog.yummy.live/css/paper.css">
-
   
   
   <link rel="stylesheet" type="text/css" href="http://blog.yummy.live/css/custom.css">
+
+  
+  <link rel="stylesheet" href="http://blog.yummy.live/css/insight.css ">
+  
+  <link rel="stylesheet" href="http://blog.yummy.live/css/search-custom.css ">
+  
 
   
   
@@ -52,7 +57,38 @@
       
         <li><a href="/about/">关于</a></li>
       
+
+      
+        <li><a id="search-func" href="JavaScript:void(0)">搜索</a></li>
+      
       </ul>
+      
+        <div class="ins-search">
+  <div class="ins-search-mask"></div>
+  <div class="ins-search-container">
+      <div class="ins-input-wrapper">
+          <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+      </div>
+      <div class="ins-section-wrapper">
+          <div class="ins-section-container"></div>
+      </div>
+  </div>
+</div>
+<script>
+(function (window) {
+  var INSIGHT_CONFIG = {
+      TRANSLATION: {
+          POSTS: '文章',
+          TAGS: '便签',
+      },
+      ROOT_URL: "http://blog.yummy.live",
+      CONTENT_URL: '/index.json',
+  };
+  window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+      
+      
     </div>
   </div>
 </nav>
@@ -228,6 +264,17 @@
       </main>
       
   
+
+
+      
+        
+        <script src="http://blog.yummy.live/js/jquery.min.js"></script>
+        
+        <script src="http://blog.yummy.live/js/custom.js"></script>
+        
+        <script src="http://blog.yummy.live/js/InsightSearch.js"></script>
+        
+      
 
   </div>
   </body>
