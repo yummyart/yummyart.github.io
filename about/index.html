@@ -24,9 +24,17 @@
   <link rel="stylesheet" type="text/css" href="http://blog.yummy.live/css/custom.css">
 
   
-  <link rel="stylesheet" href="http://blog.yummy.live/css/search/insight.css ">
+    
+    <link rel="stylesheet" href="http://blog.yummy.live/css/search/insight.css ">
+    
+    <link rel="stylesheet" href="http://blog.yummy.live/css/search/search-custom.css ">
+    
   
-  <link rel="stylesheet" href="http://blog.yummy.live/css/search/search-custom.css ">
+
+  
+    
+    <link rel="stylesheet" href="http://blog.yummy.live/css/music/APlayer.min.css ">
+    
   
 
   
@@ -63,32 +71,6 @@
       
       </ul>
       
-        <div class="ins-search">
-  <div class="ins-search-mask"></div>
-  <div class="ins-search-container">
-      <div class="ins-input-wrapper">
-          <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
-      </div>
-      <div class="ins-section-wrapper">
-          <div class="ins-section-container"></div>
-      </div>
-  </div>
-</div>
-<script>
-(function (window) {
-  var INSIGHT_CONFIG = {
-      TRANSLATION: {
-          POSTS: '文章',
-          TAGS: '便签',
-      },
-      ROOT_URL: "http://blog.yummy.live",
-      CONTENT_URL: '/index.json',
-  };
-  window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-      
-      
     </div>
   </div>
 </nav>
@@ -111,13 +93,70 @@
   </div>
 
   
-    
-    <script src="http://blog.yummy.live/js/search/jquery.min.js"></script>
-    
-    <script src="http://blog.yummy.live/js/search/custom.js"></script>
-    
-    <script src="http://blog.yummy.live/js/search/InsightSearch.js"></script>
-    
+    <div class="ins-search">
+  <div class="ins-search-mask"></div>
+  <div class="ins-search-container">
+      <div class="ins-input-wrapper">
+          <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+      </div>
+      <div class="ins-section-wrapper">
+          <div class="ins-section-container"></div>
+      </div>
+  </div>
+</div>
+<script>
+(function (window) {
+  var INSIGHT_CONFIG = {
+      TRANSLATION: {
+          POSTS: '文章',
+          TAGS: '便签',
+      },
+      ROOT_URL: "http://blog.yummy.live",
+      CONTENT_URL: "/index.json",
+  };
+  window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="http://blog.yummy.live/js/search/jquery.min.js"></script>
+
+<script src="http://blog.yummy.live/js/search/custom.js"></script>
+
+<script src="http://blog.yummy.live/js/search/InsightSearch.js"></script>
+
+  
+
+  
+    <div id="music_container"></div>
+
+<script src="http://blog.yummy.live/js/music/APlayer.min.js"></script>
+
+<script>
+    var base_url = "http://blog.yummy.live";
+    var content_json = "/music.json";
+    var url = base_url + content_json;
+    var request = new XMLHttpRequest();
+    request.open("get",url);
+    request.send();
+
+    request.onload = function ()
+    {
+        if (request.status == 200)
+        {
+            var content = JSON.parse(request.responseText);
+            if (content)
+            {
+                const ap = new APlayer({
+                    container: document.getElementById('music_container'),
+                    fixed: true,
+                    autoplay: true,
+                    audio:content
+                });
+            }
+
+        }
+    }
+</script>
   
 
   </body>
