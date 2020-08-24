@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://blog.yummy.live/post/</loc>
+    <lastmod>2020-08-25T00:51:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/tags/</loc>
+    <lastmod>2020-08-25T00:51:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/pumpkinsoup/</loc>
+    <lastmod>2020-08-25T00:51:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/tags/%E8%A5%BF%E5%BC%8F%E6%B1%A4/</loc>
+    <lastmod>2020-08-25T00:51:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/tags/%E5%AE%B6%E4%B9%A1%E9%A3%9F%E6%9D%90/</loc>
+    <lastmod>2020-05-21T12:07:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/xiangua/</loc>
+    <lastmod>2020-05-21T12:07:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/play/</loc>
+    <lastmod>2020-04-26T06:44:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/tags/%E7%8E%A9/</loc>
+    <lastmod>2020-04-26T06:44:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/summary/</loc>
+    <lastmod>2020-04-25T01:57:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/tags/%E5%90%83/</loc>
+    <lastmod>2020-04-25T01:57:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/about/</loc>
+    <lastmod>2020-04-24T04:42:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.yummy.live/</loc>
+    <lastmod>2020-04-24T04:42:19+08:00</lastmod>
+  </url>
+  
+</urlset>
