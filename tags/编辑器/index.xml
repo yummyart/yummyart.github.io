@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编辑器 on 美味生活</title>
+    <link>http://blog.yummy.live/tags/%E7%BC%96%E8%BE%91%E5%99%A8/</link>
+    <description>Recent content in 编辑器 on 美味生活</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Sep 2020 22:43:14 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.yummy.live/tags/%E7%BC%96%E8%BE%91%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vim配置</title>
+      <link>http://blog.yummy.live/vimconfigure/</link>
+      <pubDate>Thu, 17 Sep 2020 22:43:14 +0800</pubDate>
+      
+      <guid>http://blog.yummy.live/vimconfigure/</guid>
+      <description>summary vim它的最大特色是可以使用键盘命令去进行编辑，可以脱离鼠标操作。  可以通过插件使其实用性更强，还有各种主题配色和按键绑定功能。  只是学习有一点学习难度。 </description>
+    </item>
+    
+  </channel>
+</rss>
